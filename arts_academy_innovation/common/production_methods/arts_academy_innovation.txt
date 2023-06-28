@@ -1,0 +1,152 @@
+﻿pm_traditional_art = {
+	texture = "gfx/interface/icons/production_method_icons/traditional_art.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_paper_add = 2.5 # 75
+			building_output_fine_art_add = 1 # 200 - profit of 125
+		}
+	}
+}
+
+pm_realist_art = {
+	texture = "gfx/interface/icons/production_method_icons/realist_art.dds"
+
+	unlocking_technologies = {
+		realism
+	}
+
+	building_modifiers = {		
+	
+		workforce_scaled = {
+			building_input_paper_add = 5 # 150
+			building_output_fine_art_add = 1.5 # 300 - profit of 150
+		}				
+	}
+}
+
+pm_photographic_art = {
+	texture = "gfx/interface/icons/production_method_icons/photographic_art.dds"
+
+	unlocking_technologies = {
+		camera
+	}
+	
+	building_modifiers = {		
+	
+		workforce_scaled = {
+			building_input_paper_add = 5 # 150
+			building_input_tools_add = 2 # 80
+
+			building_output_fine_art_add = 2 # 400 - profit of 170
+		}					
+	}
+}
+
+pm_film_art = {
+	texture = "gfx/interface/icons/production_method_icons/film_art.dds"
+
+	unlocking_technologies = {
+		film
+	}
+
+	building_modifiers = {		
+	
+		workforce_scaled = {
+			building_input_tools_add = 5 # 150
+			building_input_paper_add = 5 # 200
+			building_input_electricity_add = 2 # 60
+			
+			building_output_fine_art_add = 3 # 600 - profit of 190
+		}					
+	}
+}	
+
+pm_scholastic_education = {
+	texture = "gfx/interface/icons/production_method_icons/scholastic_education.dds"
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 2
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_paper_add = 5
+		}	
+	
+		level_scaled = {
+			building_employment_clerks_add = 1500
+			building_employment_laborers_add = 1500
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.1
+		}	
+	}
+}
+
+pm_philosophy_department = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	
+	unlocking_technologies = {
+		dialectics
+	}
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 3
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_paper_add = 10
+		}
+		
+		level_scaled = {
+			building_employment_clerks_add = 1750
+			building_employment_laborers_add = 1250
+		}					
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.15
+		}	
+	}
+}
+
+pm_analytical_philosophy_department = {
+	texture = "gfx/interface/icons/production_method_icons/analytical_philosophy_department.dds"
+	
+	unlocking_technologies = {
+		analytical_philosophy
+	}
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 4
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			building_input_paper_add = 15
+		}
+		
+		level_scaled = {
+			building_employment_clerks_add = 2000
+			building_employment_laborers_add = 1000
+		}					
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.2
+		}	
+	}
+}	

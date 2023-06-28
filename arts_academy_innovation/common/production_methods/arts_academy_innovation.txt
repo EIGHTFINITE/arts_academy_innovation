@@ -1,6 +1,12 @@
 ﻿pm_traditional_art = {
 	texture = "gfx/interface/icons/production_method_icons/traditional_art.dds"
 	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 0.2
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_paper_add = 2.5 # 75
@@ -14,6 +20,12 @@ pm_realist_art = {
 
 	unlocking_technologies = {
 		realism
+	}
+
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 0.3
+		}
 	}
 
 	building_modifiers = {		
@@ -32,6 +44,12 @@ pm_photographic_art = {
 		camera
 	}
 	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 0.4
+		}
+	}
+
 	building_modifiers = {		
 	
 		workforce_scaled = {
@@ -48,6 +66,12 @@ pm_film_art = {
 
 	unlocking_technologies = {
 		film
+	}
+
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 0.6
+		}
 	}
 
 	building_modifiers = {		
@@ -84,6 +108,7 @@ pm_scholastic_education = {
 	
 	state_modifiers = {
 		workforce_scaled = { 
+			state_education_access_add = 0.02
 			state_pop_qualifications_mult = 0.1
 		}	
 	}
@@ -115,6 +140,7 @@ pm_philosophy_department = {
 	
 	state_modifiers = {
 		workforce_scaled = { 
+			state_education_access_add = 0.03
 			state_pop_qualifications_mult = 0.15
 		}	
 	}
@@ -146,6 +172,7 @@ pm_analytical_philosophy_department = {
 	
 	state_modifiers = {
 		workforce_scaled = { 
+			state_education_access_add = 0.04
 			state_pop_qualifications_mult = 0.2
 		}	
 	}

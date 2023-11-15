@@ -1,16 +1,10 @@
 ﻿pm_traditional_art = {
 	texture = "gfx/interface/icons/production_method_icons/traditional_art.dds"
-	
-	country_modifiers = {
-		workforce_scaled = { 
-			country_weekly_innovation_add = 0.2
-		}
-	}
 
 	building_modifiers = {
-		workforce_scaled = {
-			building_input_paper_add = 2.5 # 75
-			building_output_fine_art_add = 1 # 200 - profit of 125
+		workforce_scaled = { # 500 profit
+			goods_input_paper_add = 10 # 300
+			goods_output_fine_art_add = 4 # 800
 		}
 	}
 }
@@ -22,18 +16,12 @@ pm_realist_art = {
 		realism
 	}
 
-	country_modifiers = {
-		workforce_scaled = { 
-			country_weekly_innovation_add = 0.3
-		}
-	}
+	building_modifiers = {
 
-	building_modifiers = {		
-	
-		workforce_scaled = {
-			building_input_paper_add = 5 # 150
-			building_output_fine_art_add = 1.5 # 300 - profit of 150
-		}				
+		workforce_scaled = { # 550 profit
+			goods_input_paper_add = 15 # 450
+			goods_output_fine_art_add = 5 # 1000
+		}
 	}
 }
 
@@ -43,21 +31,15 @@ pm_photographic_art = {
 	unlocking_technologies = {
 		camera
 	}
-	
-	country_modifiers = {
-		workforce_scaled = { 
-			country_weekly_innovation_add = 0.4
+
+	building_modifiers = {
+
+		workforce_scaled = { # 630 profit
+			goods_input_paper_add = 15 # 450
+			goods_input_tools_add = 8 # 320
+
+			goods_output_fine_art_add = 7 # 1400
 		}
-	}
-
-	building_modifiers = {		
-	
-		workforce_scaled = {
-			building_input_paper_add = 5 # 150
-			building_input_tools_add = 2 # 80
-
-			building_output_fine_art_add = 2 # 400 - profit of 170
-		}					
 	}
 }
 
@@ -68,23 +50,19 @@ pm_film_art = {
 		film
 	}
 
-	country_modifiers = {
-		workforce_scaled = { 
-			country_weekly_innovation_add = 0.6
+	building_modifiers = {
+
+		workforce_scaled = { # 690 profit
+			goods_input_tools_add = 10 # 400
+			goods_input_paper_add = 15 # 450
+			goods_input_electricity_add = 2 # 60
+
+			goods_output_fine_art_add = 8 # 1600
 		}
 	}
 
-	building_modifiers = {		
-	
-		workforce_scaled = {
-			building_input_tools_add = 5 # 150
-			building_input_paper_add = 5 # 200
-			building_input_electricity_add = 2 # 60
-			
-			building_output_fine_art_add = 3 # 600 - profit of 190
-		}					
-	}
-}	
+	required_input_goods = electricity
+}
 
 pm_scholastic_education = {
 	texture = "gfx/interface/icons/production_method_icons/scholastic_education.dds"
@@ -97,7 +75,7 @@ pm_scholastic_education = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_paper_add = 5
+			goods_input_paper_add = 5
 		}	
 	
 		level_scaled = {
@@ -108,7 +86,6 @@ pm_scholastic_education = {
 	
 	state_modifiers = {
 		workforce_scaled = { 
-			state_education_access_add = 0.02
 			state_pop_qualifications_mult = 0.1
 		}	
 	}
@@ -129,7 +106,7 @@ pm_philosophy_department = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_paper_add = 10
+			goods_input_paper_add = 10
 		}
 		
 		level_scaled = {
@@ -140,7 +117,6 @@ pm_philosophy_department = {
 	
 	state_modifiers = {
 		workforce_scaled = { 
-			state_education_access_add = 0.03
 			state_pop_qualifications_mult = 0.15
 		}	
 	}
@@ -161,7 +137,7 @@ pm_analytical_philosophy_department = {
 	
 	building_modifiers = {
 		workforce_scaled = { 
-			building_input_paper_add = 15
+			goods_input_paper_add = 15
 		}
 		
 		level_scaled = {
@@ -172,7 +148,6 @@ pm_analytical_philosophy_department = {
 	
 	state_modifiers = {
 		workforce_scaled = { 
-			state_education_access_add = 0.04
 			state_pop_qualifications_mult = 0.2
 		}	
 	}

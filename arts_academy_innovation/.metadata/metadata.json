@@ -1,8 +1,8 @@
 {
-  "name" : "arts_academy_innovation",
+  "name" : "Arts Academies Produce A Little Innovation",
   "id" : "",
   "version" : "1.0",
-  "supported_game_version" : "1.9.*",
+  "supported_game_version" : "",
   "short_description" : "",
   "tags" : ["Balance","Economy And Buildings","Fixes","Gameplay"],
   "relationships" : [],

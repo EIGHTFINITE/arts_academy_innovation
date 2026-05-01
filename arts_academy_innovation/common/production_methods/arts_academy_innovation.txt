@@ -1,4 +1,4 @@
-﻿pm_traditional_art = {
+﻿REPLACE:pm_traditional_art = {
 	texture = "gfx/interface/icons/production_method_icons/traditional_art.dds"
 
 	country_modifiers = {
@@ -15,7 +15,7 @@
 	}
 }
 
-pm_realist_art = {
+REPLACE:pm_realist_art = {
 	texture = "gfx/interface/icons/production_method_icons/realist_art.dds"
 
 	unlocking_technologies = {
@@ -37,7 +37,7 @@ pm_realist_art = {
 	}
 }
 
-pm_photographic_art = {
+REPLACE:pm_photographic_art = {
 	texture = "gfx/interface/icons/production_method_icons/photographic_art.dds"
 
 	unlocking_technologies = {
@@ -61,7 +61,7 @@ pm_photographic_art = {
 	}
 }
 
-pm_film_art = {
+REPLACE:pm_film_art = {
 	texture = "gfx/interface/icons/production_method_icons/film_art.dds"
 
 	unlocking_technologies = {
@@ -88,7 +88,7 @@ pm_film_art = {
 	required_input_goods = electricity
 }
 
-pm_scholastic_education = {
+REPLACE:pm_scholastic_education = {
 	texture = "gfx/interface/icons/production_method_icons/scholastic_education.dds"
 
 	country_modifiers = {
@@ -116,7 +116,7 @@ pm_scholastic_education = {
 	}
 }
 
-pm_philosophy_department = {
+REPLACE:pm_philosophy_department = {
 	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
 
 	unlocking_technologies = {
@@ -148,7 +148,7 @@ pm_philosophy_department = {
 	}
 }
 
-pm_analytical_philosophy_department = {
+REPLACE:pm_analytical_philosophy_department = {
 	texture = "gfx/interface/icons/production_method_icons/analytical_philosophy_department.dds"
 
 	unlocking_technologies = {
